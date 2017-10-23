@@ -1,3 +1,8 @@
+# Extended from the original Password Generator
+I've extended the functionality of the original password generator to cater for passing the length of each rule set as agruments as well as providing the option to generate an 'easy to read' password.
+
+Original README.md as follows...
+
 # Password Generator
 A javascript password generator with easy to define rules to suit any business case. The default rules will generate a 16 character password of 12 characters/numbers and 4 special characters.
 
