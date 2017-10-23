@@ -27,7 +27,7 @@
             <div class="input-group">
                 <input type="text" class="form-control input-lg" id="password">
                   <span class="input-group-btn">
-                    <button class="btn btn-lg btn-primary" onclick="$('#password').val(password.generate());">
+                    <button class="btn btn-lg btn-primary" onclick="$('#password').val(password.generate({'upper':0,'lower':8,'numeric':1,'special':1,'easy':'false'}));">
                         Generate Password
                     </button>
                   </span>
